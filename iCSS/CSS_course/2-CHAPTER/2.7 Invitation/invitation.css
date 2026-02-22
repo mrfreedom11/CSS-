@@ -1,0 +1,42 @@
+/* Main wrapper */
+#invite-wrapper {
+  width: 60%; /* Between 25%–75% */
+  padding: 25px;
+  background-color: rgb(32, 64, 96); /* Deep blue */
+  color: #f2f2f2; /* Light text */
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+h1 {
+  font-family: "Georgia", serif; /* Desired + backup font */
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffd700;
+}
+
+/* Invite text section */
+#invite-text {
+  width: 85%; /* Between 75%–90% */
+  margin: 0 auto;
+  line-height: 1.6;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Itinerary */
+#itinerary {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+/* Signature */
+span {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  margin-top: 10px;
+}

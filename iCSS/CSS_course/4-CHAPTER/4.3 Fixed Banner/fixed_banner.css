@@ -1,0 +1,19 @@
+ul {
+  background-color: lightyellow;
+  border: 3px solid;
+  padding: 3px;
+  list-style-type: none;
+  position: fixed;
+}
+
+div {
+  height: 75vh;
+}
+
+#about > h2 {
+  background-color: lightseagreen;
+}
+
+#projects > h2 {
+  background-color: orange;
+}

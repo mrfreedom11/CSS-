@@ -1,0 +1,111 @@
+/* Write code below 💖 */
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Header background */
+header {
+  background-image: url("https://cdn.pixabay.com/photo/2020/07/23/01/29/books-5430104_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+/* Heading */
+h1 {
+  margin: 20px 0; /* top and bottom */
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Navigation links */
+.nav-item {
+  display: inline-block;
+  width: 33%;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Main content spacing */
+main {
+  margin-top: 20px;
+}
+
+/* Section spacing */
+section {
+  margin: 10px 0;
+}
+
+/* Welcome paragraph */
+#welcome > p {
+  text-align: center;
+  margin: 0 5em;
+  line-height: 1.6;
+}
+
+/* Catalog form styles */
+#catalog-input,
+#form-btn {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+  padding: 8px;
+}
+
+#catalog-input {
+  border: 2px solid #333;
+  width: 37.5%;
+  border-radius: 5px;
+}
+
+#form-btn {
+  border: none;
+  background-color: #4b7bec;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#form-btn:hover {
+  background-color: #3867d6;
+}
+
+/* Staff picks */
+#staff-picks {
+  text-align: center;
+}
+
+.staff-pick-img {
+  border: 1px solid #333;
+  border-radius: 0 7px 7px 0;
+  width: 10em;
+  height: 15em;
+  margin: 5px;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.staff-pick-img:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,57 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+}
+
+#red {
+  background-color: red;
+}
+
+#outer-div {
+  padding: 15px;
+  border: 2px solid;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+#blue {
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#green {
+  background-color: green;
+  position: absolute;
+  top: 30px;
+  left: 55px;
+}
+
+
+/* Notification div - change from relative to absolute */
+#notification-div {
+  position: absolute; /* changed from relative */
+  top: 20px;          /* keep your original top */
+  left: 50%;          /* keep your original left */
+  transform: translateX(-50%); /* optional, to center it horizontally */
+}
+
+/* Header - absolute position and full width */
+header {
+  position: absolute;
+  width: 100%;
+  top: 0; /* usually you want it at the top */
+}
+
+/* Main element - relative positioning and top offset */
+main {
+  position: relative;
+  top: 133px;
+}

@@ -1,0 +1,7 @@
+h1 {
+  border: 3px solid royalblue; /* width, style, and color */
+}
+
+p {
+  font: bold 18px "Segoe UI", sans-serif; /* weight, size, and font-family with fallback */
+}

@@ -1,0 +1,21 @@
+/* Write code below 💖 */
+div{
+    border: 1px solid;
+    text-align: center;
+}
+div.line{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0px;
+    text-decoration: underline;
+}
+
+div#roses{
+    background-color: red;
+}
+div#violets{
+    background-color: blanchedalmond;
+}
+div#sugar{
+    background-color: beige;
+}

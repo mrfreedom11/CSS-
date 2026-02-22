@@ -1,0 +1,7 @@
+h4 {
+  text-align: center; /* Centers the heading */
+}
+
+span {
+  text-decoration: underline wavy red 2px; /* Wavy red underline with 2px thickness */
+}
